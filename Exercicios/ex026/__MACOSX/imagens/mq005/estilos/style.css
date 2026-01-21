@@ -19,8 +19,23 @@ header > h1{
     text-align: center;
 }
 
+span#burguer{
+   background-color: rgb(58, 49, 49);
+   color: white;
+   display: block;
+   text-align: center;
+   padding: 10px;
+}
+
+span#burguer:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
 menu{
-    display: block;
+    display: none;
 }
 
 menu > ul{
@@ -39,7 +54,7 @@ menu > ul > li > a{
 
 menu > ul > li > a:hover{
     background-color: gray;
-    transition: 0.5s;
+    transition: 0.4s;
 }
 
 main{
